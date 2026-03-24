@@ -19,9 +19,9 @@ const projects = [
     href: "/case-study/deathcorp",
   },
   {
-    title: "Global Mission",
+    title: "Global Mission Institute",
     description: "Full rebrand.",
-    subtitle: "NGO that finally looks like 2026.",
+    subtitle: "Hero video + brand guidelines.",
     image: "https://thewidercollective.com/assets/gmi-cover-BRC-3QQX.png",
     href: "/case-study/globalmission",
   },

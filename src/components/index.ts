@@ -8,3 +8,4 @@ export { Opinions } from "./Opinions";
 export { Reel } from "./Reel";
 export { CTA } from "./CTA";
 export { Footer } from "./Footer";
+export { GridBackground } from "./GridBackground";

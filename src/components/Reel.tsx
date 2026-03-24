@@ -29,9 +29,10 @@ export function Reel() {
         >
           <video
             className="w-full h-full object-cover"
-            controls
+            autoPlay
+            muted
+            loop
             playsInline
-            poster="/work/showreel-poster.jpg"
           >
             <source src="https://video.thewidercollective.com/TWC/showreel" type="video/mp4" />
           </video>

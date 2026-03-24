@@ -44,7 +44,7 @@ const caseStudies: Record<string, {
   globalmission: {
     title: "Global Mission Institute",
     subtitle: "Complete brand transformation.",
-    description: "Full rebrand for an NGO that finally looks like 2026. Hero video and comprehensive brand guidelines.",
+    description: "Full rebrand with hero video and comprehensive brand guidelines. A fresh identity for 2026.",
     image: "https://thewidercollective.com/assets/gmi-cover-BRC-3QQX.png",
     stats: [
       { label: "Deliverables", value: "50+" },

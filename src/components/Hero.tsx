@@ -2,17 +2,21 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { GridBackground } from "./GridBackground";
 
 const words = ["FILM.", "BRAND.", "SYSTEMS."];
 
 export function Hero() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-20 relative overflow-hidden">
+      {/* Interactive grid background */}
+      <GridBackground />
+      
       {/* Background gradient blob */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 0.3 }}
+          animate={{ scale: 1, opacity: 0.2 }}
           transition={{ duration: 2, ease: "easeOut" }}
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-br from-accent/20 via-accent-dark/10 to-transparent blur-3xl"
         />

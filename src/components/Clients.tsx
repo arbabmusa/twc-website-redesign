@@ -2,18 +2,29 @@
 
 import { motion } from "framer-motion";
 
-// Client logos from thewidercollective.com
+// Client logos - matching the provided image grid
+// Row 1: Ittefaq, Bengal Meat Deli, AirAsia, Mana Bay, Adeen & Co
+// Row 2: Fakir Apparels, Yoyoso, Maldivian, Bakkah Holdings, Vintage Bake Cafe
+// Row 3: Let's Vibe, Sayeman Beach Resort, Tripper, Global Mission Institute, Renai
+// Row 4: Este Medical Group, GenderGP
 const clients = [
+  { name: "Ittefaq News", logo: "https://video.thewidercollective.com/logos/ittefaq.png" },
+  { name: "Bengal Meat Deli", logo: "https://video.thewidercollective.com/logos/bengal%20meat.png" },
   { name: "AirAsia", logo: "https://video.thewidercollective.com/logos/air%20asia.png" },
-  { name: "Maldivian", logo: "https://video.thewidercollective.com/logos/Maldivian.png" },
-  { name: "Global Mission", logo: "https://video.thewidercollective.com/logos/global%20mission%20institute.png" },
-  { name: "GenderGP", logo: "https://video.thewidercollective.com/logos/gendergp.png" },
-  { name: "Death Corp", logo: "https://video.thewidercollective.com/logos/death%20corp%20piggies.png" },
-  { name: "Camel", logo: "https://video.thewidercollective.com/logos/camel.png" },
-  { name: "Yoyoso", logo: "https://video.thewidercollective.com/logos/yoyoso.png" },
-  { name: "Sayeman", logo: "https://video.thewidercollective.com/logos/sayeman.png" },
   { name: "Mana Bay", logo: "https://video.thewidercollective.com/logos/mana%20bay.png" },
+  { name: "Adeen & Co", logo: "https://video.thewidercollective.com/logos/adeen.png" },
+  { name: "Fakir Apparels", logo: "https://video.thewidercollective.com/logos/fakir.png" },
+  { name: "Yoyoso", logo: "https://video.thewidercollective.com/logos/yoyoso.png" },
+  { name: "Maldivian", logo: "https://video.thewidercollective.com/logos/Maldivian.png" },
+  { name: "Bakkah Holdings", logo: "https://video.thewidercollective.com/logos/bakkah.png" },
+  { name: "Vintage Bake Cafe", logo: "https://video.thewidercollective.com/logos/vintage.png" },
+  { name: "Let's Vibe", logo: "https://video.thewidercollective.com/logos/lets%20vibe.png" },
+  { name: "Sayeman Beach Resort", logo: "https://video.thewidercollective.com/logos/sayeman.png" },
+  { name: "Tripper", logo: "https://video.thewidercollective.com/logos/tripper.png" },
+  { name: "Global Mission Institute", logo: "https://video.thewidercollective.com/logos/global%20mission%20institute.png" },
   { name: "Renai", logo: "https://video.thewidercollective.com/logos/renai.png" },
+  { name: "Este Medical Group", logo: "https://video.thewidercollective.com/logos/este.png" },
+  { name: "GenderGP", logo: "https://video.thewidercollective.com/logos/gendergp.png" },
 ];
 
 function LogoMarquee({
