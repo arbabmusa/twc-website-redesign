@@ -57,19 +57,23 @@ export function Pitch() {
   return (
     <section className="py-32 px-6">
       <div className="max-w-7xl mx-auto">
-        {/* Hero image placeholder */}
+        {/* Death Corp Video */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="relative aspect-video rounded-2xl overflow-hidden mb-16 bg-gradient-to-br from-accent/20 via-muted to-accent-dark/20"
+          className="relative aspect-video rounded-2xl overflow-hidden mb-16 bg-muted"
         >
-          {/* Placeholder for Death Corp video/image */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <span className="font-display text-4xl font-bold opacity-30">
-              DEATH CORP PIGGIES
-            </span>
-          </div>
+          <video
+            className="w-full h-full object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster="/work/deathcorp-poster.jpg"
+          >
+            <source src="https://video.thewidercollective.com/Death%20Corp/mint" type="video/mp4" />
+          </video>
         </motion.div>
 
         {/* Content */}

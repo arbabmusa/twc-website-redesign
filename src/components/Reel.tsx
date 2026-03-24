@@ -20,35 +20,24 @@ export function Reel() {
           </p>
         </motion.div>
 
-        {/* Video placeholder */}
+        {/* Showreel Video */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="relative aspect-video rounded-2xl overflow-hidden bg-muted group cursor-pointer"
+          className="relative aspect-video rounded-2xl overflow-hidden bg-muted group"
         >
-          {/* Placeholder gradient */}
-          <div className="absolute inset-0 bg-gradient-to-br from-accent/20 via-muted to-accent-dark/20" />
-
-          {/* Play button */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              className="w-20 h-20 rounded-full bg-accent flex items-center justify-center glow group-hover:scale-110 transition-transform"
-            >
-              <svg
-                className="w-8 h-8 text-background ml-1"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M8 5v14l11-7z" />
-              </svg>
-            </motion.button>
-          </div>
+          <video
+            className="w-full h-full object-cover"
+            controls
+            playsInline
+            poster="/work/showreel-poster.jpg"
+          >
+            <source src="https://video.thewidercollective.com/TWC/showreel" type="video/mp4" />
+          </video>
 
           {/* Border glow on hover */}
-          <div className="absolute inset-0 border-2 border-transparent group-hover:border-accent/50 rounded-2xl transition-all duration-500" />
+          <div className="absolute inset-0 border-2 border-transparent group-hover:border-accent/50 rounded-2xl transition-all duration-500 pointer-events-none" />
         </motion.div>
       </div>
     </section>
