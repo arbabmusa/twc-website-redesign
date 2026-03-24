@@ -42,7 +42,8 @@ export function Navbar() {
 
         {/* CTA */}
         <Link
-          href="#contact"
+          href="https://calendly.com/thewidercollective/discovery"
+          target="_blank"
           className="px-4 py-2 text-sm font-medium border border-accent/50 rounded-full hover:bg-accent hover:text-background transition-all duration-300 glow-hover"
         >
           Book a Call

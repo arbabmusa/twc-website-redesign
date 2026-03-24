@@ -40,7 +40,8 @@ export function CTA() {
           transition={{ delay: 0.2 }}
         >
           <Link
-            href="#" // Replace with Calendly link
+            href="https://calendly.com/thewidercollective/discovery"
+            target="_blank"
             className="inline-flex items-center gap-2 px-12 py-5 text-xl font-bold bg-accent text-background rounded-full hover:scale-105 transition-transform glow"
           >
             Book a call
