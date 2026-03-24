@@ -12,11 +12,11 @@ const projects = [
     href: "/case-study/airasia",
   },
   {
-    title: "Death Corp Piggies",
-    description: "3,333 NFTs. $500K generated.",
-    subtitle: "From napkin to universe.",
-    image: "https://thewidercollective.com/assets/deathcorp-cover-BgPkz-vz.png",
-    href: "/case-study/deathcorp",
+    title: "Mana Bay",
+    description: "Brand and campaign creative delivery.",
+    subtitle: "Hospitality story brought to life.",
+    image: "/logos/mana-bay.png",
+    href: "/case-study/manabay",
   },
   {
     title: "Global Mission Institute",

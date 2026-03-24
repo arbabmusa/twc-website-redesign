@@ -67,6 +67,19 @@ const caseStudies: Record<string, {
     services: ["Influencer", "UGC", "Paid Media", "Creative"],
     externalUrl: "https://thewidercollective.com/case-study/yoyoso",
   },
+  manabay: {
+    title: "Mana Bay",
+    subtitle: "Hospitality storytelling and visual identity.",
+    description: "Creative direction and campaign assets tailored for a premium hospitality experience.",
+    image: "/logos/mana-bay.png",
+    stats: [
+      { label: "Vertical", value: "Hospitality" },
+      { label: "Focus", value: "Brand" },
+      { label: "Output", value: "Creative" },
+    ],
+    services: ["Brand", "Creative", "Campaign", "Content"],
+    externalUrl: "https://thewidercollective.com",
+  },
 };
 
 export function CaseStudyContent({

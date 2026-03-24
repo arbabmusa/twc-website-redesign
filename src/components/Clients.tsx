@@ -8,16 +8,16 @@ import { motion } from "framer-motion";
 // Row 3: Let's Vibe, Sayeman Beach Resort, Tripper, Global Mission Institute, Renai
 // Row 4: Este Medical Group, GenderGP
 const clients = [
-  { name: "AirAsia", logo: "/logos/air asia.png" },
-  { name: "Mana Bay", logo: "/logos/mana bay.png" },
+  { name: "AirAsia", logo: "/logos/air-asia.png" },
+  { name: "Mana Bay", logo: "/logos/mana-bay.png" },
   { name: "Yoyoso", logo: "/logos/yoyoso.png" },
   { name: "Maldivian", logo: "/logos/Maldivian.png" },
   { name: "Sayeman Beach Resort", logo: "/logos/sayeman.png" },
-  { name: "Global Mission Institute", logo: "/logos/global mission institute.png" },
+  { name: "Global Mission Institute", logo: "/logos/global-mission-institute.png" },
   { name: "Renai", logo: "/logos/renai.png" },
   { name: "GenderGP", logo: "/logos/gendergp.png" },
   { name: "Camel", logo: "/logos/camel.png" },
-  { name: "Death Corp Piggies", logo: "/logos/death corp piggies (1).png" },
+  { name: "Death Corp Piggies", logo: "/logos/death-corp-piggies.png" },
 ];
 
 function LogoMarquee({
@@ -48,12 +48,12 @@ function LogoMarquee({
         {duplicatedItems.map((client, i) => (
           <div
             key={`${client.name}-${i}`}
-            className="flex-shrink-0 px-8 py-4 border border-border/50 rounded-lg hover:border-accent/50 transition-colors group flex items-center justify-center min-w-[140px] h-[80px]"
+            className="flex-shrink-0 px-10 py-5 border border-border/50 rounded-lg hover:border-accent/50 transition-colors group flex items-center justify-center min-w-[220px] h-[120px]"
           >
             <img 
               src={client.logo} 
               alt={`${client.name} logo`}
-              className="max-h-10 max-w-[100px] object-contain opacity-60 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0"
+              className="max-h-20 max-w-[200px] object-contain opacity-70 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0"
             />
           </div>
         ))}

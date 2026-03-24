@@ -68,11 +68,14 @@ export function Pitch() {
             className="w-full h-full object-cover"
             autoPlay
             muted
+            controls
             loop
             playsInline
+            preload="metadata"
             poster="/work/deathcorp-poster.jpg"
           >
-            <source src="https://video.thewidercollective.com/Death%20Corp/mint" type="video/mp4" />
+            <source src="https://video.thewidercollective.com/Death%20Corp/NFT%20announcement.MOV" type="video/quicktime" />
+            <source src="https://video.thewidercollective.com/Death%20Corp/NFT%20announcement.MOV" type="video/mp4" />
           </video>
         </motion.div>
 

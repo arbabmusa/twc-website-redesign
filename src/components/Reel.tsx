@@ -31,8 +31,10 @@ export function Reel() {
             className="w-full h-full object-cover"
             autoPlay
             muted
+            controls
             loop
             playsInline
+            preload="metadata"
           >
             <source src="https://video.thewidercollective.com/TWC/showreel" type="video/mp4" />
           </video>

@@ -6,6 +6,7 @@ export function generateStaticParams() {
     { slug: "deathcorp" },
     { slug: "globalmission" },
     { slug: "yoyoso" },
+    { slug: "manabay" },
   ];
 }
 
