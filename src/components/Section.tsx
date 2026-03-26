@@ -1,5 +1,6 @@
 "use client";
 
+import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 interface SectionProps {
@@ -9,17 +10,17 @@ interface SectionProps {
   snap?: boolean;
 }
 
-export function Section({ children, className, id, snap = true }: SectionProps) {
+export function Section({ children, className, id, snap = false }: SectionProps) {
   return (
-    <section
+    <motion.section
       id={id}
-      className={cn(
-        "relative",
-        snap && "snap-start snap-always",
-        className
-      )}
+      initial={{ opacity: 0, y: 16 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.12 }}
+      transition={{ duration: 0.45, ease: "easeOut" }}
+      className={cn("relative", snap && "snap-start snap-always", className)}
     >
       {children}
-    </section>
+    </motion.section>
   );
 }
