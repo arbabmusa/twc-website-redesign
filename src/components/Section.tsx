@@ -1,6 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 import { cn } from "@/lib/utils";
 
 interface SectionProps {
@@ -10,15 +11,28 @@ interface SectionProps {
   snap?: boolean;
 }
 
-export function Section({ children, className, id, snap = false }: SectionProps) {
+export function Section({ children, className, id, snap = true }: SectionProps) {
+  const ref = useRef<HTMLElement>(null);
+  
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"],
+  });
+
+  // Scale and opacity effects on scroll
+  const scale = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0.95, 1, 1, 0.95]);
+  const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0.6, 1, 1, 0.6]);
+
   return (
     <motion.section
+      ref={ref}
       id={id}
-      initial={{ opacity: 0, y: 16 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.12 }}
-      transition={{ duration: 0.45, ease: "easeOut" }}
-      className={cn("relative", snap && "snap-start snap-always", className)}
+      style={{ scale, opacity }}
+      className={cn(
+        "relative",
+        snap && "snap-start snap-always",
+        className
+      )}
     >
       {children}
     </motion.section>
