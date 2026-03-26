@@ -14,10 +14,10 @@ export function Section({ children, className, id, snap = false }: SectionProps)
   return (
     <motion.section
       id={id}
-      initial={{ opacity: 0, y: 16 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
       viewport={{ once: true, amount: 0.12 }}
-      transition={{ duration: 0.45, ease: "easeOut" }}
+      transition={{ duration: 0.35, ease: "easeOut" }}
       className={cn("relative", snap && "snap-start snap-always", className)}
     >
       {children}

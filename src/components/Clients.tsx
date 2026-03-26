@@ -67,7 +67,7 @@ function LogoMarquee({
                   alt={`${client.name} logo`}
                   className={`object-contain transition-opacity grayscale group-hover:grayscale-0 ${
                     isEste
-                      ? "max-h-24 max-w-[220px] opacity-95 group-hover:opacity-100 brightness-0 invert drop-shadow-[0_0_6px_rgba(255,255,255,0.25)]"
+                      ? "max-h-24 max-w-[220px] opacity-80 group-hover:opacity-90 brightness-0 invert"
                       : "max-h-40 max-w-[320px] opacity-75 group-hover:opacity-100"
                   }`}
                 />
