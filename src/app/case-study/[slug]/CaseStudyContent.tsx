@@ -19,7 +19,7 @@ const caseStudies: Record<string, {
     title: "AirAsia",
     subtitle: "1.1M users reached. $0.06 per lead.",
     description: "Pan-Asian market launch campaign that delivered unprecedented engagement rates across multiple markets.",
-    image: "https://thewidercollective.com/assets/airasia-cover-A6P9r8aC.png",
+    image: "/logos/air-asia.png",
     stats: [
       { label: "Reach", value: "1.1M" },
       { label: "CPL", value: "$0.06" },
@@ -32,7 +32,7 @@ const caseStudies: Record<string, {
     title: "Death Corp Piggies",
     subtitle: "3,333 NFTs. $500K generated.",
     description: "An apocalyptic pig IP on the Sui blockchain. They came to us with a napkin sketch. We built a universe.",
-    image: "https://thewidercollective.com/assets/deathcorp-cover-BgPkz-vz.png",
+    image: "/logos/death-corp-piggies.png",
     stats: [
       { label: "NFTs", value: "3,333" },
       { label: "Total", value: "$500K" },
@@ -45,7 +45,7 @@ const caseStudies: Record<string, {
     title: "Global Mission Institute",
     subtitle: "Complete brand transformation.",
     description: "Full rebrand with hero video and comprehensive brand guidelines. A fresh identity for 2026.",
-    image: "https://thewidercollective.com/assets/gmi-cover-BRC-3QQX.png",
+    image: "/logos/global-mission-institute.png",
     stats: [
       { label: "Deliverables", value: "50+" },
       { label: "Videos", value: "3" },
@@ -58,7 +58,7 @@ const caseStudies: Record<string, {
     title: "Yoyoso",
     subtitle: "2.5M reach. +40% footfall.",
     description: "80+ pastel creatives that drove massive engagement and real-world store visits.",
-    image: "https://thewidercollective.com/assets/yoyoso-cover-aHCgoYuI.png",
+    image: "/logos/yoyoso.png",
     stats: [
       { label: "Reach", value: "2.5M" },
       { label: "Footfall", value: "+40%" },

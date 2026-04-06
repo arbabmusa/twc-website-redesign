@@ -8,7 +8,7 @@ const projects = [
     title: "AirAsia",
     description: "1.1M reached. $0.06 per lead.",
     subtitle: "Pan-Asian market launch.",
-    image: "https://thewidercollective.com/assets/airasia-cover-A6P9r8aC.png",
+    image: "/logos/air-asia.png",
     href: "/case-study/airasia",
   },
   {
@@ -22,14 +22,14 @@ const projects = [
     title: "Global Mission Institute",
     description: "Full rebrand.",
     subtitle: "Hero video + brand guidelines.",
-    image: "https://thewidercollective.com/assets/gmi-cover-BRC-3QQX.png",
+    image: "/logos/global-mission-institute.png",
     href: "/case-study/globalmission",
   },
   {
     title: "Yoyoso",
     description: "2.5M reach. +40% footfall.",
     subtitle: "80+ pastel creatives.",
-    image: "https://thewidercollective.com/assets/yoyoso-cover-aHCgoYuI.png",
+    image: "/logos/yoyoso.png",
     href: "/case-study/yoyoso",
   },
 ];
