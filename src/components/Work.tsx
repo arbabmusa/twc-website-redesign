@@ -15,7 +15,7 @@ const projects = [
     title: "Mana Bay",
     description: "Brand and campaign creative delivery.",
     subtitle: "Hospitality story brought to life.",
-    image: "/logos/mana-bay-solid-black.png",
+    image: "/logos/mana-bay.png",
     href: "/case-study/manabay",
   },
   {
@@ -61,12 +61,12 @@ export function Work() {
               transition={{ delay: i * 0.1 }}
             >
               <Link href={project.href} className="group block">
-                <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-muted mb-4">
+                <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-[#2a2b32] mb-4">
                   {/* Project image */}
                   <img 
                     src={project.image} 
                     alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-contain p-8 transition-transform duration-500 group-hover:scale-105"
                   />
 
                   {/* Hover overlay */}

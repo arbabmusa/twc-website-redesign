@@ -71,7 +71,7 @@ const caseStudies: Record<string, {
     title: "Mana Bay",
     subtitle: "Hospitality storytelling and visual identity.",
     description: "Creative direction and campaign assets tailored for a premium hospitality experience.",
-    image: "/logos/mana-bay-black.png",
+    image: "/logos/mana-bay.png",
     stats: [
       { label: "Vertical", value: "Hospitality" },
       { label: "Focus", value: "Brand" },
