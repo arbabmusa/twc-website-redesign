@@ -8,14 +8,22 @@ import { motion } from "framer-motion";
 // Row 3: Let's Vibe, Sayeman Beach Resort, Tripper, Global Mission Institute, Renai
 // Row 4: Este Medical Group, GenderGP
 const clients = [
+  { name: "Doinik Ittefaq", logo: "/logos/doinik-ittefaq.png" },
+  { name: "Bengal Meat", logo: "/logos/bengal-meat.png" },
   { name: "AirAsia", logo: "/logos/air-asia.png" },
   { name: "Mana Bay", logo: "/logos/mana-bay-black.png" },
+  { name: "Adeen & Co", logo: "/logos/adeen-co.png" },
+  { name: "Fakir Apparels", logo: "/logos/fakir-apparels.png" },
   { name: "Yoyoso", logo: "/logos/yoyoso.png" },
   { name: "Maldivian", logo: "/logos/Maldivian.png" },
+  { name: "Bakkah Holdings", logo: "/logos/bakkah-holdings.png" },
+  { name: "Vintage Bake Cafe", logo: "/logos/vintage-bake-cafe.png" },
   { name: "Sayeman Beach Resort", logo: "/logos/sayeman.png" },
+  { name: "Tripper", logo: "/logos/tripper.png" },
   { name: "Global Mission Institute", logo: "/logos/global-mission-institute.png" },
   { name: "Renai", logo: "/logos/renai.png" },
   { name: "GenderGP", logo: "/logos/gendergp.png" },
+  { name: "Este Medical Group", logo: "/logos/este-medical-group.png" },
   { name: "Camel", logo: "/logos/camel.png" },
   { name: "Death Corp Piggies", logo: "/logos/death-corp-piggies.png" },
 ];
@@ -45,18 +53,28 @@ function LogoMarquee({
           },
         }}
       >
-        {duplicatedItems.map((client, i) => (
-          <div
-            key={`${client.name}-${i}`}
-            className="flex-shrink-0 px-12 py-6 border border-border/50 rounded-lg hover:border-accent/50 transition-colors group flex items-center justify-center min-w-[360px] h-[200px]"
-          >
-            <img 
-              src={client.logo} 
-              alt={`${client.name} logo`}
-              className="max-h-40 max-w-[320px] object-contain opacity-75 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0"
-            />
-          </div>
-        ))}
+        {duplicatedItems.map((client, i) => {
+          const isEste = client.name === "Este Medical Group";
+
+          return (
+            <div
+              key={`${client.name}-${i}`}
+              className="flex-shrink-0 px-12 py-6 border border-border/50 rounded-lg hover:border-accent/50 transition-colors group flex items-center justify-center min-w-[360px] h-[200px]"
+            >
+              <div>
+                <img
+                  src={client.logo}
+                  alt={`${client.name} logo`}
+                  className={`object-contain transition-opacity grayscale group-hover:grayscale-0 ${
+                    isEste
+                      ? "max-h-24 max-w-[220px] opacity-95 group-hover:opacity-100 brightness-0 invert drop-shadow-[0_0_6px_rgba(255,255,255,0.25)]"
+                      : "max-h-40 max-w-[320px] opacity-75 group-hover:opacity-100"
+                  }`}
+                />
+              </div>
+            </div>
+          );
+        })}
       </motion.div>
     </div>
   );
