@@ -1,8 +1,10 @@
 {
   "rewrites": [
     { "source": "/app", "destination": "https://the-wider-collective-os.vercel.app/app" },
+    { "source": "/app/", "destination": "https://the-wider-collective-os.vercel.app/app" },
     { "source": "/app/:path*", "destination": "https://the-wider-collective-os.vercel.app/app/:path*" },
     { "source": "/portal", "destination": "https://the-wider-collective-os.vercel.app/portal" },
+    { "source": "/portal/", "destination": "https://the-wider-collective-os.vercel.app/portal" },
     { "source": "/portal/:path*", "destination": "https://the-wider-collective-os.vercel.app/portal/:path*" },
     { "source": "/login", "destination": "https://the-wider-collective-os.vercel.app/login" },
     { "source": "/logout", "destination": "https://the-wider-collective-os.vercel.app/logout" },
