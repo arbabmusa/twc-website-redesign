@@ -9,6 +9,7 @@ const socials = [
 ];
 
 const footerLinks = [
+  { name: "Insights", href: "/insights/" },
   { name: "Press", href: "/press" },
 ];
 

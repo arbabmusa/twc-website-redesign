@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "validate:insights": "node scripts/validate-insights.mjs",
+    "prebuild": "npm run validate:insights"
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.0",
