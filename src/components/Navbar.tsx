@@ -4,9 +4,10 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 const navItems = [
-  { label: "work", href: "#work" },
-  { label: "services", href: "#services" },
-  { label: "contact", href: "#contact" },
+  { label: "work", href: "/#work" },
+  { label: "services", href: "/#services" },
+  { label: "insights", href: "/insights/" },
+  { label: "contact", href: "/#contact" },
 ];
 
 export function Navbar() {
@@ -41,6 +42,8 @@ export function Navbar() {
             </li>
           ))}
         </ul>
+
+        <Link href="/insights/" className="md:hidden text-xs text-accent-light">Insights</Link>
 
         {/* CTA */}
         <Link

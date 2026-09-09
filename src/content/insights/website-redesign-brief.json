@@ -1,0 +1,85 @@
+{
+  "slug": "website-redesign-brief",
+  "title": "How to write a website redesign brief",
+  "description": "A practical website redesign brief for founders and marketing teams: goals, page scope, content, integrations, migration, and handover.",
+  "category": "Systems & Software",
+  "status": "published",
+  "publishedAt": "2026-09-09T01:54:08Z",
+  "updatedAt": "2026-09-09T01:54:08Z",
+  "author": "The Wider Collective",
+  "takeaway": "A useful redesign brief defines what visitors need to do, what your team needs to manage, and how you will judge the result. Start there before choosing a visual direction.",
+  "sections": [
+    {
+      "id": "start-with-the-decision",
+      "heading": "Start with the business decision",
+      "paragraphs": [
+        "A website redesign is easier to scope when the brief describes a problem someone can observe. \u201cMake it modern\u201d leaves the agency guessing. \u201cHelp procurement teams find our capabilities and send a qualified enquiry\u201d gives the project a direction.",
+        "Write down who visits the site, what they need to understand, and the action you want them to take. Separate primary audiences from occasional visitors. An investor, a job applicant, and a potential customer may need different routes through the same site.",
+        "Choose a small set of measures before work starts. Qualified enquiries, completed bookings, and the time your team spends updating content can all be useful. Establish a baseline where you have data; label an unmeasured assumption as an assumption."
+      ]
+    },
+    {
+      "id": "scope",
+      "heading": "Define pages, templates, and content",
+      "paragraphs": [
+        "A page inventory and a template inventory answer different questions. Twenty service pages may share one layout. A calculator or searchable directory may require substantial work even if it occupies a single page. Ask proposals to describe both.",
+        "For each page, record its purpose, intended audience, content owner, and next action. Mark whether the copy and images exist, need editing, or must be created. Content production belongs in the schedule and budget.",
+        "Include language versions, forms, downloads, and accessibility requirements. If several people must approve the copy, name the person responsible for collecting their feedback."
+      ],
+      "bullets": [
+        "Core pages and reusable templates",
+        "Content creation and migration responsibilities",
+        "Forms, search, calculators, and other interactive features",
+        "Required language versions and approval owners"
+      ]
+    },
+    {
+      "id": "technical",
+      "heading": "Describe the operational requirements",
+      "paragraphs": [
+        "Explain what your team needs to edit after launch: articles, staff profiles, services, case studies, or product information. Describe who will do it and how often. This helps the agency propose a content system that matches the work.",
+        "List the tools the website must connect to and the person who can provide access. Specify the expected behaviour of a lead form: where the enquiry arrives, who receives it, and what happens if delivery fails.",
+        "For an existing site, ask for a URL migration plan. Record valuable pages before changing addresses. Include redirects, metadata, sitemap checks, and verification that important content remains accessible."
+      ]
+    },
+    {
+      "id": "remote-delivery",
+      "heading": "Make remote delivery explicit",
+      "paragraphs": [
+        "For an international project, agree on working-hour overlap, meeting frequency, and a single place for feedback. Record who can approve a milestone and what happens when feedback arrives after approval.",
+        "Ask which accounts, design files, code, and documentation you receive. Clarify hosting ownership, third-party subscriptions, training, support, and the process for later changes. These are practical questions to settle before comparing prices."
+      ]
+    },
+    {
+      "id": "brief-template",
+      "heading": "A brief you can copy",
+      "paragraphs": [
+        "Use the prompts below to create a first draft. You do not need to solve every technical question before contacting an agency. A clearly labelled unknown is more useful than an invented requirement.",
+        "When proposals arrive, compare the same scope: strategy, copy, design, development, migration, testing, and support. Ask each team to identify exclusions and the decisions that could change the estimate."
+      ],
+      "bullets": [
+        "Business problem: what is happening today?",
+        "Audience and action: who is the site for, and what should they do?",
+        "Scope: which pages, templates, languages, and features are required?",
+        "Content: what exists, who owns it, and what needs producing?",
+        "Operations: what must editors manage, and which tools must connect?",
+        "Delivery: budget parameters, target launch, decision-maker, and dependencies",
+        "Acceptance: how will we check the work and complete the handover?"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Search: site moves with URL changes",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes"
+    }
+  ],
+  "relatedSlugs": [
+    "brand-identity-deliverables",
+    "brand-film-production-brief"
+  ],
+  "cta": {
+    "label": "Discuss your website brief",
+    "subject": "Website redesign brief"
+  }
+}

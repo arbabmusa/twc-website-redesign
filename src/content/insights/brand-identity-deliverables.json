@@ -1,0 +1,81 @@
+{
+  "slug": "brand-identity-deliverables",
+  "title": "What should a brand identity project include?",
+  "description": "A buyer\u2019s checklist for brand identity deliverables, from strategic foundations and logo files to usable guidelines and a practical rollout.",
+  "category": "Brand & Identity",
+  "status": "draft",
+  "publishedAt": "2026-09-09T00:00:01Z",
+  "updatedAt": "2026-09-09T00:00:01Z",
+  "author": "The Wider Collective",
+  "takeaway": "A brand identity project should give your team a usable system: a clear direction, visual rules, working files, and applications for the places your brand actually appears.",
+  "sections": [
+    {
+      "id": "business-context",
+      "heading": "Define what the identity needs to change",
+      "paragraphs": [
+        "Before listing deliverables, describe why the business needs a new identity. You may be entering a new market, bringing several offers together, or replacing a look that no longer represents the company. Each situation creates different priorities.",
+        "Write down the audience, the offer, and the qualities the identity needs to communicate. Agree which existing elements have value. A redesign does not automatically require discarding every familiar cue.",
+        "Clarify whether positioning, naming, messaging, and research are included. These are separate pieces of work. A proposal that says \u201cbranding\u201d should explain which decisions it covers and which inputs the client must provide."
+      ]
+    },
+    {
+      "id": "visual-system",
+      "heading": "Ask for a visual system",
+      "paragraphs": [
+        "A logo is one part of the identity. Your team also needs rules for typography, colour, composition, and imagery. The appropriate level of detail depends on how many people will use the system and how many formats they produce.",
+        "Ask to see the direction applied to realistic content. A long product name, a dense presentation slide, and a small mobile layout will reveal different constraints from a clean mockup.",
+        "For international use, discuss the languages and scripts the system must support. Confirm that chosen typefaces support the required characters and that the necessary licences are understood."
+      ],
+      "bullets": [
+        "Primary logo and appropriate secondary arrangements",
+        "Colour specifications for relevant digital and print uses",
+        "Typography hierarchy and font licensing responsibilities",
+        "Image direction, graphic elements, and layout principles",
+        "Examples of acceptable use and common mistakes"
+      ]
+    },
+    {
+      "id": "applications",
+      "heading": "Choose applications your team will use",
+      "paragraphs": [
+        "Prioritise the touchpoints involved in selling and delivering your service. A B2B company might need a proposal template and presentation system before merchandise. A consumer brand may need packaging and social formats first.",
+        "Name the actual applications in the scope. \u201cSocial templates\u201d can mean one square layout or a family of editable formats. State the tool, number of layouts, and type of content each layout must accommodate.",
+        "Test templates with the person who will maintain them. A beautiful file that requires a designer for every update may not meet your operational needs."
+      ]
+    },
+    {
+      "id": "handover",
+      "heading": "Make handover part of the project",
+      "paragraphs": [
+        "Agree which editable source files and export formats will be supplied. Record ownership and any third-party licence restrictions in the project agreement. Ask where the final assets will live and who maintains them.",
+        "A useful guideline explains decisions through examples. It should help someone choose the right logo, format a document, and recognise when an application has drifted from the system.",
+        "Include a handover session using a real task. Have your team build a slide or adapt a social layout while the designer is available. That exercise can expose missing instructions before the engagement ends."
+      ]
+    },
+    {
+      "id": "comparison-checklist",
+      "heading": "Compare proposals on the same basis",
+      "paragraphs": [
+        "Review strategy, identity development, applications, revisions, and rollout separately. Ask how many directions will be explored and where approval is required. A list of file formats cannot tell you how much thinking is included.",
+        "Use this checklist in the next agency conversation. Treat missing answers as clarification points before agreeing the scope."
+      ],
+      "bullets": [
+        "What business and audience questions will the project resolve?",
+        "Which visual elements and applications are included?",
+        "How will the system work across our languages and channels?",
+        "Who owns the working files and pays for third-party licences?",
+        "What do guidelines, training, and rollout support include?",
+        "Who approves the work and how are changes handled?"
+      ]
+    }
+  ],
+  "sources": [],
+  "relatedSlugs": [
+    "website-redesign-brief",
+    "brand-film-production-brief"
+  ],
+  "cta": {
+    "label": "Discuss your brand brief",
+    "subject": "Brand identity project"
+  }
+}

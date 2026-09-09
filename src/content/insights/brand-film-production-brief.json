@@ -1,0 +1,82 @@
+{
+  "slug": "brand-film-production-brief",
+  "title": "How to brief a brand film production team",
+  "description": "Plan a brand film around its audience, message, distribution, approvals, and deliverables\u2014with a practical checklist for remote collaboration.",
+  "category": "Film & Content",
+  "status": "draft",
+  "publishedAt": "2026-09-09T00:00:00Z",
+  "updatedAt": "2026-09-09T00:00:00Z",
+  "author": "The Wider Collective",
+  "takeaway": "A brand film brief should connect one audience and one communication goal to a clear production scope. Decide where the film will appear before deciding what to shoot.",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Give the film one clear job",
+      "paragraphs": [
+        "Begin with the audience and the change you want to make. A film that introduces an unfamiliar company has a different job from a product demonstration or a recruitment story. Trying to do all three can make the brief difficult to evaluate.",
+        "Write the message in a sentence someone outside the company can understand. Then describe what the viewer should do next: explore a service, request a conversation, or share the film internally.",
+        "Identify where people will watch it. A website visitor may have chosen to learn more; someone encountering an ad may have no context. The opening, pacing, and supporting text need to reflect that difference."
+      ]
+    },
+    {
+      "id": "evidence",
+      "heading": "Bring evidence and useful references",
+      "paragraphs": [
+        "List the people, places, products, and existing footage available to the production team. Explain access constraints and the availability of interviewees. A creative idea depends on what can realistically be filmed.",
+        "Collect claims that require evidence before they enter the script. If you want to use a performance result or customer statement, provide the supporting material and confirm permission. Keep confidential information out of the brief shared externally.",
+        "For references, explain what you like: the pace, interview approach, colour, or tone. Also describe what would feel wrong for the brand. This gives the team useful direction without asking it to copy another film."
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "Scope the whole delivery",
+      "paragraphs": [
+        "The main film is only one deliverable. Record the versions required for your website, presentations, and social channels. Agree durations, orientations, captions, languages, and whether shorter edits require separate concepts.",
+        "Clarify music, voice, talent, stock footage, and usage rights with the production team. The intended channels, territories, and usage period should be discussed in the agreement. Do not assume every asset can be reused in every future campaign.",
+        "Ask whether project files, raw footage, and storage are included. These can have different handover arrangements from final video exports."
+      ],
+      "bullets": [
+        "Main film and intended viewing context",
+        "Shorter edits, alternate openings, and social formats",
+        "Captions, subtitles, translations, and voiceover versions",
+        "Thumbnail or still-image requirements",
+        "File delivery, archive period, and future-edit arrangements"
+      ]
+    },
+    {
+      "id": "approval",
+      "heading": "Agree approvals before production",
+      "paragraphs": [
+        "Name one person to consolidate stakeholder feedback. Separate approval of the treatment, script, and edit. Agree what is locked at each stage and how later changes affect the schedule and cost.",
+        "For a remote project, choose a review method that allows precise feedback on the video. \u201cThe middle feels slow\u201d is less actionable than a timecoded note explaining which section loses the intended message.",
+        "Build the timeline around real dependencies: access to locations, people, product samples, and approvals. Ask the producer to identify the decisions that must be made before a shoot date can be confirmed."
+      ]
+    },
+    {
+      "id": "brief-checklist",
+      "heading": "The first-call checklist",
+      "paragraphs": [
+        "You can start a production conversation before you have a finished script. A clear objective and a realistic description of the available material are enough to begin scoping.",
+        "Compare proposals by what they include: creative development, pre-production, shoot resources, post-production, versions, and usage. Ask where assumptions remain. A low initial estimate may describe a different production from the one you have in mind."
+      ],
+      "bullets": [
+        "Who is watching, and what should change after they watch?",
+        "What is the single message and next action?",
+        "Where will the film appear?",
+        "What people, locations, assets, and evidence are available?",
+        "Which versions and languages are needed?",
+        "Who approves each stage, and when can they respond?",
+        "What are the budget parameters and launch dependencies?"
+      ]
+    }
+  ],
+  "sources": [],
+  "relatedSlugs": [
+    "website-redesign-brief",
+    "brand-identity-deliverables"
+  ],
+  "cta": {
+    "label": "Discuss your film brief",
+    "subject": "Brand film production brief"
+  }
+}
