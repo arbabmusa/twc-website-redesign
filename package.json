@@ -8,7 +8,13 @@
     "start": "next start",
     "lint": "next lint",
     "validate:insights": "node scripts/validate-insights.mjs",
-    "prebuild": "npm run validate:insights"
+    "prebuild": "npm run validate:insights && npm run editorial:validate",
+    "editorial:validate": "node scripts/insights.mjs validate",
+    "editorial:status": "node scripts/insights.mjs status",
+    "editorial:preview": "node scripts/insights.mjs preview",
+    "editorial:release": "node scripts/insights.mjs release",
+    "editorial:verify": "node scripts/insights.mjs verify-live",
+    "test:insights": "node --test scripts/insights/*.test.mjs"
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.0",
@@ -30,5 +36,8 @@
     "postcss": "^8.4.0",
     "tailwindcss": "^3.4.0",
     "typescript": "^5.7.0"
+  },
+  "overrides": {
+    "postcss": "$postcss"
   }
 }

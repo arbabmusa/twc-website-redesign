@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "researchedAt": "2026-09-13",
+  "method": "Live web search and primary-source retrieval; no paid keyword dataset or Search Console account connected",
+  "targetAudience": "International English-speaking founders and marketing leads",
+  "marketLimitation": "Search results were not country-controlled; no country-specific demand or ranking claims",
+  "observations": [
+    {
+      "topic": "website handover checklist",
+      "query": "\"website handover checklist\" agency",
+      "observedFormat": "Practical client and agency checklists",
+      "examples": [
+        "https://www.svensson.design/guides/website-handover-checklist/",
+        "https://pingvera.com/blog/website-handover-between-agencies.html"
+      ],
+      "evidenceLevel": "search result observation",
+      "decision": "Use task-based acceptance evidence, not only an account list"
+    },
+    {
+      "topic": "brand film brief",
+      "query": "\"brand film brief\" production",
+      "observedFormat": "Downloadable production brief template",
+      "examples": [
+        "https://jordyscott.com/articles/2026/5/2/the-brand-film-brief-template"
+      ],
+      "evidenceLevel": "retrieved first-party production company page",
+      "decision": "Differentiate with scope, remote approval, and deliverable planning"
+    },
+    {
+      "topic": "brand identity deliverables",
+      "query": "\"brand identity deliverables\" guide",
+      "observedFormat": "Deliverable lists and checklists",
+      "examples": [
+        "https://artversion.com/wp-content/uploads/2026/03/Brand-Identity-Design-Checklist-ArtVersion.pdf"
+      ],
+      "evidenceLevel": "search result observation; PDF not extracted",
+      "decision": "Emphasise usability tests and proposal acceptance criteria"
+    },
+    {
+      "topic": "creative retainer vs in house team",
+      "query": "\"outsourced creative team\" \"retainer\"",
+      "observedFormat": "Agency retainer service pages",
+      "examples": [
+        "https://jpetrous.com/creative-retainer"
+      ],
+      "evidenceLevel": "retrieved first-party service page",
+      "decision": "Use a workload and decision-ownership worksheet; do not assert cost savings or ranking ease"
+    }
+  ],
+  "metrics": {
+    "searchVolume": null,
+    "keywordDifficulty": null,
+    "currentRankings": null,
+    "organicConversions": null
+  },
+  "primaryClaimSources": [
+    {
+      "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+      "verifiedClaim": "Map old URLs to corresponding new URLs and configure redirects during a site move",
+      "checkedAt": "2026-09-13"
+    }
+  ]
+}

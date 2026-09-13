@@ -1,0 +1,81 @@
+{
+  "slug": "creative-retainer-vs-in-house",
+  "title": "Creative retainer or in-house team: how to choose",
+  "description": "Compare a creative retainer with an in-house team using your workload, decision-making needs, specialist requirements, and total operating costs.",
+  "category": "Film & Content",
+  "status": "draft",
+  "publishedAt": "2026-09-22T03:17:00.000Z",
+  "updatedAt": "2026-09-22T03:17:00.000Z",
+  "author": "The Wider Collective",
+  "takeaway": "Choose the arrangement that fits the work you need every month and the decisions your team can own. A retainer supplies agreed external capacity; an in-house hire builds a role inside your business. Some teams need both.",
+  "sections": [
+    {
+      "id": "start-with-the-work",
+      "heading": "Map the work before comparing suppliers",
+      "paragraphs": [
+        "Collect the requests your team actually made over the last month. Separate recurring production from occasional projects. Weekly ad variations, a quarterly campaign, a website redesign, and everyday sales support place different demands on a creative team.",
+        "For each request, record the discipline, expected output, deadline, and person who approved it. Then mark whether the brief was ready when work started. This distinguishes a shortage of production capacity from a shortage of direction.",
+        "Use the next month as a planning exercise if you do not have reliable records. Label it as a forecast. Avoid choosing a package around a precise volume your team has never measured."
+      ]
+    },
+    {
+      "id": "when-a-retainer-fits",
+      "heading": "When a creative retainer fits",
+      "paragraphs": [
+        "A retainer can make sense when you have repeat work that can be briefed and prioritised, but the work spans several disciplines. One month might need campaign concepts and design; another may require editing, motion, and landing-page support. Confirm which capabilities the proposed arrangement actually includes.",
+        "Ask how capacity is allocated. An agreement might reserve hours, a set of deliverables, or a place in a production queue. These are different commitments. The number of requests you can submit does not establish how much work can be delivered at once.",
+        "Agree who makes priority decisions when a new urgent request arrives. A useful retainer conversation covers the work that will move down the queue as well as the work that will start."
+      ]
+    },
+    {
+      "id": "when-to-hire",
+      "heading": "When an in-house role fits",
+      "paragraphs": [
+        "An internal role can make sense when the work needs continuous business context, frequent collaboration with product or sales, and a stable core discipline. Define the decisions that person will own as carefully as the assets they will produce.",
+        "Check whether the role is coherent. A job description covering strategy, filming, design, development, and daily publishing may combine several specialisms. Name which capabilities must be internal and which can remain external.",
+        "A hybrid arrangement can keep the brand owner or creative lead inside the business while using an external team for production peaks and specialist work. This still needs a clear owner for the brief and feedback."
+      ]
+    },
+    {
+      "id": "compare-the-whole-cost",
+      "heading": "Compare the whole operating cost",
+      "paragraphs": [
+        "Build both options around the same forecast of work. For an internal role, list salary assumptions, recruitment, equipment, software, management time, and any remaining specialist suppliers. For a retainer, list the fee, included capacity, separately quoted work, subscriptions, and the time your team will spend briefing and reviewing.",
+        "Use your own figures and current supplier quotes. A generic salary-versus-fee comparison cannot establish which option is cheaper for your business. Keep one-off setup costs separate from monthly operating costs.",
+        "Compare the consequences of variation. What happens if demand doubles for two weeks, or falls during a quiet month? Ask about booking capacity, unused allocation, scope changes, and the process for ending or changing the arrangement."
+      ]
+    },
+    {
+      "id": "decision-worksheet",
+      "heading": "A decision worksheet for your team",
+      "paragraphs": [
+        "Create a row for each recurring type of work and answer the questions below. The pattern should show which responsibilities need an internal owner and which outputs can be commissioned externally."
+      ],
+      "bullets": [
+        "Work: what needs producing, how often, and in which formats?",
+        "Context: what must the maker understand before starting?",
+        "Ownership: who writes the brief, sets priorities, and approves the result?",
+        "Capacity: what is the normal workload, and what causes peaks?",
+        "Capability: which disciplines recur, and which are occasional?",
+        "Handover: what working files, documentation, and access does your team need?"
+      ]
+    },
+    {
+      "id": "trial",
+      "heading": "Test the working arrangement",
+      "paragraphs": [
+        "Before expanding the arrangement, agree a defined trial scope with normal work and at least one realistic change of priority. Decide what you will evaluate: usefulness of the outputs, time spent managing the work, clarity of feedback, and whether the agreed delivery process holds up.",
+        "At the review, discuss the cause of delays rather than counting outputs alone. Missing briefs, late approvals, and unavailable production capacity need different fixes. Use what the trial reveals to adjust the operating model."
+      ]
+    }
+  ],
+  "sources": [],
+  "relatedSlugs": [
+    "brand-film-production-brief",
+    "brand-identity-deliverables"
+  ],
+  "cta": {
+    "label": "Discuss ongoing creative support",
+    "subject": "Creative retainer enquiry"
+  }
+}
