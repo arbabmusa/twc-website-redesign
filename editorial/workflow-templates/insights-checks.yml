@@ -1,0 +1,30 @@
+name: Insights quality checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: insights-checks-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run test:insights
+      - run: npm run build
+      - run: node scripts/verify-insights-export.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verified-public-site
+          path: out/
+          retention-days: 3

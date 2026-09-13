@@ -1,0 +1,442 @@
+{
+  "version": 1,
+  "timezone": "Asia/Dhaka",
+  "cadence": {
+    "researchDays": [
+      "Monday",
+      "Wednesday"
+    ],
+    "publishDays": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "publishTime": "09:17",
+    "weeklyArticleLimit": 2
+  },
+  "items": [
+    {
+      "slug": "website-redesign-brief",
+      "primaryKeyword": "website redesign brief",
+      "category": "Systems & Software",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 1,
+      "state": "released",
+      "originalValue": "Reusable brief and scope inventory",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      },
+      "scheduledAt": "2026-09-09T01:54:08Z",
+      "approval": {
+        "contentHash": "d884a703fd8ba01c4baf8df1bc84c4c856510d4c22da1ad4dc94dea3ab9c6006",
+        "scheduledAt": "2026-09-09T01:54:08Z",
+        "approvedBy": "Arbab Musa",
+        "approvedAt": "2026-09-09T01:54:08Z",
+        "evidence": "Existing first-article publication explicitly requested by user and merged in https://github.com/arbabmusa/twc-website-redesign/pull/6"
+      }
+    },
+    {
+      "slug": "brand-identity-deliverables",
+      "primaryKeyword": "brand identity deliverables",
+      "category": "Brand & Identity",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 2,
+      "state": "in_review",
+      "originalValue": "Proposal acceptance checklist",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      },
+      "scheduledAt": "2026-09-15T03:17:00.000Z",
+      "reviewHash": "48b42b29a9c97a79ddba0e94429c6342d6d426426e4be78980021f5763e9b7a6"
+    },
+    {
+      "slug": "brand-film-production-brief",
+      "primaryKeyword": "brand film brief",
+      "category": "Film & Content",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 3,
+      "state": "in_review",
+      "originalValue": "Production brief and version checklist",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      },
+      "scheduledAt": "2026-09-17T03:17:00.000Z",
+      "reviewHash": "7386d6ab9b64c69dba0fa4976a861de0a3df931b8d490f69cbe541b91dbf4ffb"
+    },
+    {
+      "slug": "creative-retainer-vs-in-house",
+      "primaryKeyword": "creative retainer vs in house team",
+      "category": "Film & Content",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 4,
+      "state": "in_review",
+      "originalValue": "Capacity and ownership decision worksheet",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      },
+      "scheduledAt": "2026-09-22T03:17:00.000Z",
+      "reviewHash": "19c7677531a34dfc1b6372e334f40658c4bba7d0fe29806973551dde540c78da"
+    },
+    {
+      "slug": "website-handover-checklist",
+      "primaryKeyword": "website handover checklist",
+      "category": "Systems & Software",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 5,
+      "state": "in_review",
+      "originalValue": "Hands-on acceptance test",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      },
+      "scheduledAt": "2026-09-24T03:17:00.000Z",
+      "reviewHash": "5be51620fa3674a35128c52bcff793d23de80f8eb8df7021287ddbfe80cf3b98"
+    },
+    {
+      "slug": "monthly-content-production-retainer",
+      "primaryKeyword": "monthly content production retainer",
+      "category": "Film & Content",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 6,
+      "state": "backlog",
+      "originalValue": "Monthly request and delivery plan",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "brand-refresh-vs-rebrand",
+      "primaryKeyword": "brand refresh vs rebrand",
+      "category": "Brand & Identity",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 7,
+      "state": "backlog",
+      "originalValue": "Decision tree",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "website-redesign-cost-factors",
+      "primaryKeyword": "website redesign cost factors",
+      "category": "Systems & Software",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 8,
+      "state": "backlog",
+      "originalValue": "Scope comparison without invented price bands",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "compare-website-design-proposals",
+      "primaryKeyword": "compare website design proposals",
+      "category": "Systems & Software",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 9,
+      "state": "backlog",
+      "originalValue": "Like-for-like proposal worksheet",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "brand-film-vs-explainer-video",
+      "primaryKeyword": "brand film vs explainer video",
+      "category": "Film & Content",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 10,
+      "state": "backlog",
+      "originalValue": "Format-to-objective matrix",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "brand-guidelines-checklist",
+      "primaryKeyword": "brand guidelines checklist",
+      "category": "Brand & Identity",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 11,
+      "state": "backlog",
+      "originalValue": "Real editing task acceptance test",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "website-redesign-seo-migration",
+      "primaryKeyword": "website redesign SEO migration checklist",
+      "category": "Systems & Software",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 12,
+      "state": "backlog",
+      "originalValue": "URL inventory and redirect map",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "one-shoot-month-of-content",
+      "primaryKeyword": "repurpose brand video shoot",
+      "category": "Film & Content",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 13,
+      "state": "backlog",
+      "originalValue": "Shot-to-deliverable matrix",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "rebrand-rollout-checklist",
+      "primaryKeyword": "rebrand rollout checklist",
+      "category": "Brand & Identity",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 14,
+      "state": "backlog",
+      "originalValue": "Dependency-based rollout board",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "b2b-website-content-strategy",
+      "primaryKeyword": "B2B website content strategy",
+      "category": "Systems & Software",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 15,
+      "state": "backlog",
+      "originalValue": "Buyer questions mapped to pages",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "remote-branding-agency-process",
+      "primaryKeyword": "remote branding agency process",
+      "category": "Brand & Identity",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 16,
+      "state": "backlog",
+      "originalValue": "Cross-border approvals and handover checklist",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "video-production-feedback",
+      "primaryKeyword": "video production feedback process",
+      "category": "Film & Content",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 17,
+      "state": "backlog",
+      "originalValue": "Labelled hypothetical feedback examples",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "workflow-automation-checklist",
+      "primaryKeyword": "business workflow automation checklist",
+      "category": "Systems & Software",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 18,
+      "state": "backlog",
+      "originalValue": "Trigger-owner-exception worksheet",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "brand-positioning-before-design",
+      "primaryKeyword": "brand positioning before design",
+      "category": "Brand & Identity",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 19,
+      "state": "backlog",
+      "originalValue": "Positioning inputs worksheet",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "choose-a-cms",
+      "primaryKeyword": "how to choose a CMS",
+      "category": "Systems & Software",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 20,
+      "state": "backlog",
+      "originalValue": "Editor-task comparison from current documentation",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "video-production-cost-factors",
+      "primaryKeyword": "video production cost factors",
+      "category": "Film & Content",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 21,
+      "state": "backlog",
+      "originalValue": "Budget components without invented rates",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "brand-templates-for-marketing-teams",
+      "primaryKeyword": "brand templates for marketing teams",
+      "category": "Brand & Identity",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 22,
+      "state": "backlog",
+      "originalValue": "Template test using realistic content",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "custom-software-vs-off-the-shelf",
+      "primaryKeyword": "custom software vs off the shelf",
+      "category": "Systems & Software",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 23,
+      "state": "backlog",
+      "originalValue": "Maintenance and exceptions decision sheet",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    },
+    {
+      "slug": "b2b-website-conversion-metrics",
+      "primaryKeyword": "B2B website conversion metrics",
+      "category": "Systems & Software",
+      "buyer": "International founders and marketing leads",
+      "intent": "commercial investigation",
+      "priority": 24,
+      "state": "backlog",
+      "originalValue": "Qualified enquiry measurement plan",
+      "demand": {
+        "monthlySearches": null,
+        "difficulty": null,
+        "market": null,
+        "source": null,
+        "measuredAt": null
+      }
+    }
+  ]
+}

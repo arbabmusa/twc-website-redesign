@@ -1,0 +1,88 @@
+{
+  "slug": "website-handover-checklist",
+  "title": "Website handover: what your team should receive",
+  "description": "Use this website handover checklist to confirm account access, working files, editing ability, backups, and support before you close the project.",
+  "category": "Systems & Software",
+  "status": "draft",
+  "publishedAt": "2026-09-24T03:17:00.000Z",
+  "updatedAt": "2026-09-24T03:17:00.000Z",
+  "author": "The Wider Collective",
+  "takeaway": "A website handover should leave your team able to operate the site and know who can fix it. Verify that with a few real tasks, alongside the account and file inventory.",
+  "sections": [
+    {
+      "id": "ownership",
+      "heading": "Start with an account inventory",
+      "paragraphs": [
+        "List every service needed to keep the website working: domain registration, DNS, hosting, content management, forms, email delivery, analytics, and any paid plugins or integrations. For each one, record the account owner, renewal owner, and support contact.",
+        "Confirm that the appropriate person in your business can sign in through their own authorised access. A screenshot of an account dashboard does not prove that your team can manage it.",
+        "Keep credentials out of the handover document. Record the account address and the approved process for granting access. Agree how access will be changed when someone leaves the team or the supplier relationship ends."
+      ]
+    },
+    {
+      "id": "files",
+      "heading": "Collect the materials needed to continue the work",
+      "paragraphs": [
+        "Ask for the source code or site export appropriate to the platform, editable design files, content assets, and an inventory of third-party dependencies. Clarify what is included in the agreement and record anything that cannot be transferred.",
+        "For a custom-built site, ask the maintainer to demonstrate a fresh build or equivalent recovery process using the supplied documentation. This can reveal a missing setup step or dependency before another team needs to make a change.",
+        "Record the production release and where the live site is hosted. A successful preview and the public domain can point to different versions; the handover should identify the one customers actually use."
+      ]
+    },
+    {
+      "id": "editing",
+      "heading": "Have your team perform an editing task",
+      "paragraphs": [
+        "Choose a realistic task: update a service description, replace an image, or publish a test article in the agreed preview environment. Have the person who will maintain the website complete it while the supplier observes.",
+        "Include the entire process, from editing to previewing and releasing the change. Check the result on the public surface when the change is intended for publication. A saved entry in a content system is not always a live page.",
+        "Use the exercise to improve the written guide. Record where assets belong, what image dimensions are appropriate, and who approves public changes."
+      ]
+    },
+    {
+      "id": "journeys",
+      "heading": "Test the customer journeys",
+      "paragraphs": [
+        "Walk through the actions the website exists to support. Send a clearly labelled test enquiry through the agreed test process, confirm the intended recipient receives it, and check the response shown to the visitor.",
+        "For a booking tool, distinguish clicking a booking link from completing a booking. Record where the completed event is visible and who follows up. Agree a way to remove test records without mixing them into real lead reporting.",
+        "If addresses changed during a redesign, verify the redirect list and important destination pages. Google recommends mapping old URLs to their new destinations when moving a site."
+      ]
+    },
+    {
+      "id": "recovery",
+      "heading": "Agree recovery and support",
+      "paragraphs": [
+        "Ask what is backed up, how often, where the backups live, and who can restore them. Agree a recovery demonstration suitable for the site; the existence of a backup file alone does not prove the website can be restored.",
+        "Define how to report a fault and who owns the next action. Separate corrections to agreed deliverables from new work, routine updates, and third-party subscription issues.",
+        "Keep a visible list of accepted limitations and unresolved items. Assign an owner and a next action to each one before closing the project."
+      ]
+    },
+    {
+      "id": "acceptance",
+      "heading": "A practical acceptance checklist",
+      "paragraphs": [
+        "Use this checklist during the handover meeting. Mark each item as demonstrated, outstanding, or not applicable, and record the evidence or next action."
+      ],
+      "bullets": [
+        "Our team can access the domain, hosting, editor, and connected services with authorised accounts.",
+        "The required working files and setup instructions are available to the appointed maintainer.",
+        "An editor has completed a normal content update and verified its intended destination.",
+        "A test enquiry or booking has reached the expected operational destination.",
+        "Important migrated addresses reach the correct pages.",
+        "The backup and recovery responsibilities have been demonstrated or have a dated follow-up.",
+        "Support contacts, renewals, and unresolved items have named owners."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Search: site moves with URL changes",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes"
+    }
+  ],
+  "relatedSlugs": [
+    "website-redesign-brief",
+    "brand-identity-deliverables"
+  ],
+  "cta": {
+    "label": "Discuss your website handover",
+    "subject": "Website handover enquiry"
+  }
+}

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Navbar, Footer } from "@/components";
-import { formatDate, getInsight, getInsights, readingMinutes } from "@/lib/insights";
+import { formatDate, getInsight, getInsights, readingMinutes, insightRevision } from "@/lib/insights";
 import { siteUrl } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -12,6 +12,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getInsight((await params).slug);
   if (!article) return { title: "Insight not found", robots: { index: false } };
   return { title: `${article.title} | TWC`, description: article.description,
+    other: { "twc-insight-revision": insightRevision(article) },
     alternates: { canonical: siteUrl(`/insights/${article.slug}/`) },
     openGraph: { title: article.title, description: article.description, type: "article", url: siteUrl(`/insights/${article.slug}/`), publishedTime: article.publishedAt, modifiedTime: article.updatedAt, authors: [article.author] },
     twitter: { card: "summary", title: article.title, description: article.description } };

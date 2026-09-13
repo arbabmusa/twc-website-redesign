@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { createHash } from "node:crypto";
 
 export const categories = ["Film & Content", "Brand & Identity", "Systems & Software"] as const;
 export type Insight = {
@@ -26,5 +27,10 @@ export function getInsights(): Insight[] {
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 }
 export const getInsight = (slug: string) => getInsights().find((article) => article.slug === slug);
+export function insightRevision(article: Insight) {
+  const { status, ...content } = article;
+  void status;
+  return createHash("sha256").update(JSON.stringify(content)).digest("hex");
+}
 export const readingMinutes = (article: Insight) => Math.max(1, Math.ceil([article.takeaway, ...article.sections.flatMap((section) => [...section.paragraphs, ...(section.bullets ?? [])])].join(" ").split(/\s+/).length / 200));
 export const formatDate = (date: string) => new Intl.DateTimeFormat("en", { dateStyle: "long", timeZone: "UTC" }).format(new Date(date));
